@@ -1,0 +1,43 @@
+    html 
+{
+    height: auto;
+    width: auto;
+}
+
+    body 
+{
+    background-color: #ffffff;
+}
+
+    h1, h3
+{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    background-color: #b59298;
+}
+
+li {
+    display: block;
+    display: inline;
+    padding: 50px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: #835861;
+}
+
+a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 50px;
+}
+
+a:hover{
+    background-color: #835861;
+}
