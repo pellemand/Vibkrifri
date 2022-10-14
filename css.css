@@ -1,17 +1,21 @@
-    html 
-{
+html {
     height: auto;
     width: auto;
 }
 
-    body 
-{
+body{
     background-color: #ffffff;
 }
 
-    h1, h3
-{
+h1, h3{
     text-align: center;
+    font-size: 40px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -19,11 +23,6 @@ ul {
     margin: 0px;
     padding: auto;
     background-color: #b59298;
-    justify-content: center;
-
-}
-
-nav {
     justify-content: center;
 }
 
@@ -41,8 +40,10 @@ li {
 a {
         text-decoration: none;
         color: rgb(0, 0, 0);
-        padding: 50px;
-        width: 100%;
+        padding: auto;
+        /* width: 100%; */
+        margin-right: 20px;
+
 }
 
 a:hover{
