@@ -17,14 +17,20 @@
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: 50px;
+    padding: auto;
     background-color: #b59298;
+    justify-content: center;
+
+}
+
+nav {
+    justify-content: center;
 }
 
 li {
     display: block;
     display: inline;
-    padding: 50px;
+    padding: auto;
     text-decoration: none;
 }
 
