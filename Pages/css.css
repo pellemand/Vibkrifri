@@ -1,11 +1,17 @@
 html {
-    height: auto;
+    height: max-content;
     width: auto;
     background-color: #ffffff;
 }
 
 body{
-    background-color: #5b3c44
+    background-color: #5b3c44;
+    height: auto;
+}
+
+h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h1, h3{
@@ -19,6 +25,7 @@ h3{
     font-size: 20px;
     font-family: monospace;
     font-style: italic;
+    margin-top: 0px;
 }
 
 nav {
@@ -34,7 +41,7 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: auto;
-    background-color: #a77b84;
+    /* background-color: #a77b84; */
     justify-content: center;
 }
 
@@ -55,9 +62,9 @@ a {
         padding: auto;
         /* width: 100%; */
         margin-right: 50px;
-        font-size: 15px;
+        font-size:x-large;
         font-weight: bolder;
-
+        font-family: monospace;
 }
 
 a:hover{
