@@ -5,7 +5,7 @@ html {
 }
 
 body{
-    background-color: #5b3c44;
+    background-color: #ffffffd3;
     height: auto;
 }
 
@@ -19,6 +19,10 @@ h1, h3{
     font-size: 40px;
     font-family: monospace;
     color: #ffffff;
+    background-color: #5b3c44;
+    margin-bottom: 0px;
+    width: 100%;
+    
 }
 
 h3{
@@ -26,15 +30,16 @@ h3{
     font-family: monospace;
     font-style: italic;
     margin-top: 0px;
+    padding-bottom: 10px;
 }
+
 
 nav {
     display: flex;
     justify-content: center;
-    width: 100%;
     background-color: #b5979c;
-    padding: 10px;
     font-family: monospace;
+    width: 100%;
 }
 
 ul {
@@ -68,5 +73,26 @@ a {
 }
 
 a:hover{
-    background-color: #835861;
+    background-color: #5b3c44;
+}
+h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+  padding: 3px;
+  background-color: #5b3c44;
+  color: white;
+  width: 100%;
+  bottom: 0;
+}
+
+div{
+    text-align:center;   
+    margin-bottom: 10%;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 15px;
 }
